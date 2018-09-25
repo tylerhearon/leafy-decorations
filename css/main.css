@@ -37,16 +37,16 @@ html {
 
 .banner {
   color: #fff;
-  background-image: url("../images/banner.jpg"), linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8));
-  position: top;
+  background: linear-gradient(to bottom, rgba(16, 52, 41, 0) 50%, rgba(16, 52, 41, .8)), url("../images/banner.jpg") bottom center;
+  background-size: cover;
 }
 
 .banner-content {
- background-image: url("../images/two-leaves.svg");
- background-size: 130px auto;
- background-position: .75em center;
- background-repeat: no-repeat;
- padding-top: 20em;
+  background-image: url("../images/two-leaves.svg");
+  background-size: 100px auto;
+  background-position: 12px 180px;
+  background-repeat: no-repeat;
+  padding-top: 302px;
 }
 
 @media only screen and (min-width: 60em) {
