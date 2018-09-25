@@ -36,11 +36,17 @@ html {
 }
 
 .banner {
-
+  color: #fff;
+  background-image: url("../images/banner.jpg"), linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8));
+  position: top;
 }
 
 .banner-content {
-
+ background-image: url("../images/two-leaves.svg");
+ background-size: 130px auto;
+ background-position: .75em center;
+ background-repeat: no-repeat;
+ padding-top: 20em;
 }
 
 @media only screen and (min-width: 60em) {
